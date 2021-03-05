@@ -140,6 +140,4 @@ public class VarastoTest {
         String oikea = "saldo = 2.0, vielä tilaa 8.0";
         assertEquals(oikea, s);
     }
-    
-
 }
