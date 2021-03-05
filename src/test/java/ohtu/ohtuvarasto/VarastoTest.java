@@ -137,7 +137,7 @@ public class VarastoTest {
     public void toStringTest() {
         varasto.lisaaVarastoon(2);
         String s  = varasto.toString();
-        String oikea = "saldo = 2.0, vielä tilaa 8.0";
+        String oikea = "saldo = 2, vielä tilaa 8.0";
         assertEquals(oikea, s);
     }
     
