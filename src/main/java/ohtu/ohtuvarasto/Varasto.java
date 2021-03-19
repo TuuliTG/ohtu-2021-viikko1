@@ -25,6 +25,12 @@ public class Varasto {
             this.tilavuus = 0.0;  // => käyttökelvoton varasto
         }
         if (alkuSaldo < 0.0) {
+            if (alkuSaldo < -1) {
+                System.out.println("fsf");
+                if (alkuSaldo < -2) {
+                    System.out.println("aldkfjslfj");
+                }
+            }
             this.saldo = 0.0;
         } else if (alkuSaldo <= tilavuus) // mahtuu
         {
